@@ -17,8 +17,23 @@ Multi-modal representation learning is recognized for its comprehensive interpre
   <img src="framework.png" />
 </div>
 
+## Experiment
 
-## Running the Code
+
+### Data
+We conducted experiments on six publicly available multi-view datasets [link](https://drive.google.com/drive/folders/1Jh4IHkpoLcFe6slS_-jXZ7uFqYIaNJ-1):
+
+| Datasets   | # Samples | # Feature dimensions            | # Classes |
+|------------|-----------|----------------------------------|-----------|
+| BDGP       | 2500      | 79 / 1750                        | 5         |
+| ESP-Game   | 11,032    | 100 / 100                        | 7         |
+| Flickr     | 12,154    | 100 / 100                        | 7         |
+| HW         | 2000      | 153 / 596 / 301 / 481 / 157 / 27 | 10        |
+| NUS-WIDE   | 20,000    | 100 / 100                        | 8         |
+| Reuters    | 1500      | 21,531 / 24,892 / 34,251 / 15,506 / 11,547 | 6 |
+
+
+### Running the Code
 
 To run the model, use the following commands:
 
