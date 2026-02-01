@@ -14,7 +14,7 @@ Multi-modal representation learning is recognized for its comprehensive interpre
 
 ## Model Architecture
 <div align="center">
-  <img src="framework.pdf" />
+  <img src="framework.png" />
 </div>
 
 
